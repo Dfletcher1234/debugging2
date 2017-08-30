@@ -5,9 +5,12 @@ def select_cards(possible_cards, hand)
     answer = gets.chomp
     if answer.downcase == 'y'
       hand << current_card
+    elsif print "Do you want to pick up#{}"
     end
-    return hand
+
   end
+    return hand
+    
 
 end
 
